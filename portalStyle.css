@@ -9,6 +9,7 @@
     }
     footer {
         text-align: center;
+        line-height: 1.4;
     }
     .headerFooter {
         background-color: darkslategray;
@@ -32,4 +33,13 @@
     }
     #byui {
         color: beige;
+    }
+    #lastUpdated {
+        color: gold;
+    }
+    .assgnLinks {
+        color: rgb(98, 81, 209);
+    }
+    .assgnLinks:hover {
+        color: rgb(138, 60, 158);
     }

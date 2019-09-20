@@ -1,4 +1,4 @@
-document.onload = function() {
+document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('lastUpdated').innerHTML = 
-    new Date(document.lastModified);
-}
+    'Last Modified ' + document.lastModified; 
+ }, false);

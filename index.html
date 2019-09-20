@@ -3,37 +3,28 @@
 <head>
 <meta charset="utf-8">
 <title>Test Content</title>
-<script>
-    //here is some text
-</script>
-<style type="text/css">
-    .headerFooter {
-        background-color: darkslategray;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin: 3em;
-        border-radius: 5px;
-        text-align: center;
-        color: beige;
-    }
-    #name {
-        font-size: 5em;
-    }
-</style>
+<link href="portalStyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="portalScript.js"></script>
 </head>
 <body>
     <div id="bodyDiv">
-        <header class="headerFooter"><span id="name">E. Lewis Lockhart</span></header>
-        <h1>CIT 230: Assignment Portal</h1>
-        <hr>
-        <ul>
-            <li>Lesson 02:</li>
-            <li>Lesson 03:</li>
-            <li>Lesson 04:</li>
-        </ul>
+        <header class="headerFooter">
+            <span id="name">E. Lewis Lockhart</span>
+            <img src="me.jpg" alt="me">
+        </header>
+        <div id="content">
+            <h2>CIT 230: Assignment Portal</h2>
+            <hr>
+            <ul>
+                <li>Lesson 02:</li>
+                <li>Lesson 03:</li>
+                <li>Lesson 04:</li>
+            </ul>
+        </div>
         <footer class="headerFooter">
-            © 2020 | E. Lewis Lockhart | Utah | <a href="https://www.byui.edu/online">BYUi Online Learning</a>
+            © 2020 | E. Lewis Lockhart | Utah | <a id="byui" href="https://www.byui.edu/online">BYUi Online Learning</a><br>
             <span id="lastUpdated"></span>
-        </footer>
+        </footer> 
     </div>
 </body>
 </html>

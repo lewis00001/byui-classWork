@@ -1,4 +1,6 @@
 /* ----- baseline view ----------------------------------- */
+* {box-sizing: border-box;}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -9,39 +11,20 @@ h1, h2 {
     color: white;
 }
 
-#col-a {
-    min-width: 200px;
-    min-height: 200px;
-    background-color: rebeccapurple;
-}
-#col-b {
-    min-width: 200px;
-    min-height: 200px;
-    background-color: rgb(45, 129, 97);
-}
-#col-c {
-    min-width: 200px;
-    min-height: 200px;
-    background-color: rgb(156, 144, 30);
-    grid-area: footer;
-}
+
 
 /* ----- tablet view (37.5 em) -------------------------- */
 @media only screen and (min-width: 37.5em) {
 
-    .gridarea {
-        grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer"
-    }
+    h1 {
+        background-color: cadetblue;
+    } 
 }
 
 /* ----- Desktop view (60 em) -------------------------- */
 @media only screen and (min-width: 37.5em) {
 
-    main {
-        grid-template-columns: 3fr;
-
-    }
+    h1 {
+        background-color: rgb(23, 81, 83);
+    } 
 }

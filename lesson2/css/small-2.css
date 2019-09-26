@@ -1,0 +1,44 @@
+/* ----- baseline view ----------------------------------- */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1, h2 {
+    background-color: darkslategray;
+    color: white;
+}
+
+#col-a {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: rebeccapurple;
+}
+#col-b {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: rgb(45, 129, 97);
+}
+#col-c {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: rgb(156, 144, 30);
+}
+
+/* ----- tablet view (37.5 em) -------------------------- */
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 2fr;
+
+    }
+}
+
+/* ----- Desktop view (60 em) -------------------------- */
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 3fr;
+
+    }
+}
